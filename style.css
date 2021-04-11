@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
 
+:root {
+    --primary-color: #10B981;
+}
+
 body{
     font-family: 'Noto Sans SC', sans-serif;
+}
+hr{
+    margin: 2rem 0;
 }
 
 /* Containers */
@@ -17,4 +24,21 @@ body{
 }
 
 /* Links */
-  
+
+.link{
+ text-decoration: none;
+ padding: .5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: .5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: .5rem;
+    border: 1px solid var(--primary-color);
+}
+
