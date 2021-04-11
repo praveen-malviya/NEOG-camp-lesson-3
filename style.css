@@ -4,6 +4,16 @@ body{
     font-family: 'Noto Sans SC', sans-serif;
 }
 
-h1{
-    color: red;
+/* Containers */
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+  
+/* Links */
