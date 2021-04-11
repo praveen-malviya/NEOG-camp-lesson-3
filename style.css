@@ -6,10 +6,13 @@
     --off-white: #E5E7EB;
 }
 
-body{
+body {
     font-family: 'Noto Sans SC', sans-serif;
+    margin: 0;
+    /* padding: 0; */
 }
-hr{
+
+hr {
     margin: 2rem 0;
 }
 
@@ -27,18 +30,18 @@ hr{
 
 /************ Links ************/
 
-.link{
- text-decoration: none;
- padding: .5rem 1rem;
+.link {
+    text-decoration: none;
+    padding: .5rem 1rem;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: .5rem;
     color: white;
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     border-radius: .5rem;
     border: 1px solid var(--primary-color);
@@ -46,7 +49,7 @@ hr{
 
 /************ Lists ************/
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
@@ -57,60 +60,79 @@ hr{
 
 /*********** Navigation ***********/
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-border-bottom-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-.navigation .nav-pills{
-text-align: right;
+.navigation .nav-pills {
+    text-align: right;
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
     /* font-size: 1.2rem; */
 }
 
 /*********** header  ***************/
 
-.hero{
+.hero {
     padding: 2rem;
 }
 
-.hero .hero-image{
+.hero .hero-image {
     max-width: 300px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     padding-top: 1rem;
-color: var(--dark-gray);
+    color: var(--dark-gray);
+    text-align: center;
 }
 
 
 /************ Section **************/
 
-.section{
+.section {
     padding: 2rem;
 
 }
 
-.section h1{
+.section h1 {
     text-align: center;
 }
 
 .ow {
     background-color: var(--off-white);
+}
+
+/********* Footer  ****************/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 2rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
